@@ -1,0 +1,13 @@
+/Users/danielkang/Documents/OAs/Deloitte/EmpApi/EmpService/bin/Debug/netstandard2.0/EmpService.deps.json
+/Users/danielkang/Documents/OAs/Deloitte/EmpApi/EmpService/bin/Debug/netstandard2.0/EmpService.dll
+/Users/danielkang/Documents/OAs/Deloitte/EmpApi/EmpService/bin/Debug/netstandard2.0/EmpService.pdb
+/Users/danielkang/Documents/OAs/Deloitte/EmpApi/EmpService/bin/Debug/netstandard2.0/EmpCore.dll
+/Users/danielkang/Documents/OAs/Deloitte/EmpApi/EmpService/bin/Debug/netstandard2.0/EmpData.dll
+/Users/danielkang/Documents/OAs/Deloitte/EmpApi/EmpService/bin/Debug/netstandard2.0/EmpData.pdb
+/Users/danielkang/Documents/OAs/Deloitte/EmpApi/EmpService/bin/Debug/netstandard2.0/EmpCore.pdb
+/Users/danielkang/Documents/OAs/Deloitte/EmpApi/EmpService/obj/Debug/netstandard2.0/EmpService.csprojAssemblyReference.cache
+/Users/danielkang/Documents/OAs/Deloitte/EmpApi/EmpService/obj/Debug/netstandard2.0/EmpService.AssemblyInfoInputs.cache
+/Users/danielkang/Documents/OAs/Deloitte/EmpApi/EmpService/obj/Debug/netstandard2.0/EmpService.AssemblyInfo.cs
+/Users/danielkang/Documents/OAs/Deloitte/EmpApi/EmpService/obj/Debug/netstandard2.0/EmpService.csproj.CopyComplete
+/Users/danielkang/Documents/OAs/Deloitte/EmpApi/EmpService/obj/Debug/netstandard2.0/EmpService.dll
+/Users/danielkang/Documents/OAs/Deloitte/EmpApi/EmpService/obj/Debug/netstandard2.0/EmpService.pdb

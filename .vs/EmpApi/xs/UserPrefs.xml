@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{B9EC07FA-9C40-42C0-8888-6DA688DC3F98}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="EmpData/EmpRepo.cs">
+    <Files>
+      <File FileName="EmpApi/Startup.cs" Line="24" Column="40" />
+      <File FileName="EmpApi/Controllers/EmpController.cs" Line="72" Column="1" />
+      <File FileName="EmpService/IEmpService.cs" Line="1" Column="1" />
+      <File FileName="EmpService/DEmpService.cs" Line="1" Column="1" />
+      <File FileName="EmpApi/appsettings.json" Line="1" Column="2" />
+      <File FileName="EmpApi/Properties/launchSettings.json" Line="15" Column="28" />
+      <File FileName="EmpApi/Program.cs" Line="20" Column="44" />
+      <File FileName="EmpData/IEmpRepo.cs" Line="12" Column="1" />
+      <File FileName="EmpData/EmpRepo.cs" Line="46" Column="59" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="EmpApi" expanded="True">
+            <Node name="EmpApi" expanded="True" />
+            <Node name="EmpCore" expanded="True" />
+            <Node name="EmpData" expanded="True">
+              <Node name="EmpRepo.cs" selected="True" />
+            </Node>
+            <Node name="EmpService" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.EmpApi PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
