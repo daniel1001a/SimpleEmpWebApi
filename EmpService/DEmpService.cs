@@ -7,34 +7,35 @@ namespace EmpService
 {
     public class DEmpService : IEmpService
     {
-        private readonly IEmpRepo _employeeRepository;
+        private readonly IEmpRepo _empRep;
+
         public DEmpService(IEmpRepo employeeRepository)
         {
-            _employeeRepository = employeeRepository;
+            _empRep = employeeRepository;
         }
         public Emp AddEmployee(Emp employee)
         {
-            return _employeeRepository.AddEmployee(employee);
+            return _empRep.AddEmployee(employee);
         }
 
         public void DeleteEmployee(Emp employee)
         {
-            _employeeRepository.DeleteEmployee(employee);
+            _empRep.DeleteEmployee(employee);
         }
 
         public IEnumerable<Emp> GetAllEmployee()
         {
-            return _employeeRepository.GetAllEmployee();
+            return _empRep.GetAllEmployee();
         }
 
         public Emp GetEmployeeById(int id)
         {
-            return _employeeRepository.GetEmployeeById(id);
+            return _empRep.GetEmployeeById(id);
         }
 
         public Emp UpdateEmployee(Emp employee)
         {
-            return _employeeRepository.UpdateEmployee(employee);
+            return _empRep.UpdateEmployee(employee);
         }
     }
 }

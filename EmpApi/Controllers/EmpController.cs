@@ -12,11 +12,11 @@ namespace EmpApi.Controllers
     public class EmpController : ControllerBase
     {
         private readonly IEmpService _employeeService;
+
         public EmpController(IEmpService employeeService)
         {
             _employeeService = employeeService;
         }
-
 
         [HttpGet]
         [Route("")]
@@ -48,14 +48,12 @@ namespace EmpApi.Controllers
         [Route("")]
         public IActionResult CreateEmployee(Emp employee)
         {
-
             if (!ModelState.IsValid)
             {
-                return BadRequest(new { errors = "check validation errors" });
+                return BadRequest();
             }
             var emp = _employeeService.AddEmployee(employee);
 
-            // need to return 201 created instead of 200
             return Ok(employee);
         }
 
@@ -63,10 +61,9 @@ namespace EmpApi.Controllers
         [Route("")]
         public IActionResult UpdateEmployee(Emp employee)
         {
-
             if (!ModelState.IsValid)
             {
-                return BadRequest(new { errors = "check validation errors" });
+                return NoContent();
             }
             var emp = _employeeService.UpdateEmployee(employee);
 
@@ -77,14 +74,13 @@ namespace EmpApi.Controllers
         [Route("")]
         public IActionResult DeleteEmployee(Emp employee)
         {
-
             if (!ModelState.IsValid)
             {
-                return BadRequest(new { errors = "check validation errors" });
+                return BadRequest();
             }
             _employeeService.DeleteEmployee(employee);
 
-            return Ok();
+            return Accepted();
         }
     }
 }

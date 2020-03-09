@@ -24,6 +24,7 @@ namespace EmpApi
             services.AddAuthentication(IISDefaults.AuthenticationScheme);
             services.AddControllers();
 
+            // Dependency Injection 
             services.AddScoped<IEmpRepo, EmpRepo>();
             services.AddScoped<IEmpService, DEmpService>();
         }
